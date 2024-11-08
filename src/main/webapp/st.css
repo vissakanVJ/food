@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background: url(pictures/food1.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px; /* Curved edges */
+    overflow: hidden;
+}
+
+.wrapper .left{
+    width: 50%;
+    height: 100%;
+    background: url("pictures/regis.jpg");
+    background-position: center;
+    background-size: 145%;
+    
+}
+
+.wrapper .right{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .9);
+    
+}
+
+.form{
+    height: 90%;
+    width: 90%;
+}
+
+.form > input{
+	 width: 40%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50px;
+    margin: 30px 0 30px 100px;
+    font-size: 16px;
+}
+
+h1{
+    margin-left: 250px;
+    
+    
+}
+
+.input-box input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid wheat;
+    height: 50px;
+}

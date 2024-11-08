@@ -1,0 +1,120 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(pictures/food1.jpg) no-repeat ;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.wrapper{
+    width: 500px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    text-align: center ;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .5);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+
+.input-box input::placeholder{
+    color: white;
+    font-weight: 300
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forget{
+    display: flex;
+    justify-content:space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forget label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember-forget a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.form > input{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form > input:active{
+    background: rgba(255, 255, 255, 0.498);
+}
+
+.wrapper .register{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
